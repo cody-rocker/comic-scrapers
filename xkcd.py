@@ -67,9 +67,7 @@ def SendAttached(IMAGE, MESSAGE, TOADDRS):
 def get_lulz():
     xkcd = xkcd_get()
     time = TimeStamp()
-    message = ('Daily comics from: py_lulz@webdev-server\n' +
-               time + '\n' +
-               'Reply w/ "pls STAHP!" to unsub.')
+    message = ('Daily comics from: xkcd@webdev-server\n' + time)
     if xkcd != 'file already exists':
         print('sending xkcd...')
         for toaddrs in SUBS:

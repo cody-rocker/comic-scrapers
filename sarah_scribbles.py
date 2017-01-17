@@ -71,8 +71,7 @@ def SendAttached(IMAGE, MESSAGE, TOADDRS):
 def get_lulz():
     scribble = scribble_get()
     time = TimeStamp()
-    message = ('New scribble from: sarah_scribbles@webdev-server\n' +
-               time)
+    message = ('New scribble from: sarah_scribbles@your-server\n' + time)
     if scribble != 'file already exists':
         print('sending scribble...')
         for toaddrs in SUBS:

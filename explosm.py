@@ -71,7 +71,7 @@ def get_lulz():
     if cyanide != 'file already exists':
         print('sending cyanide...')
         for toaddrs in SUBS:
-            print(('...to ' + toaddrs + "..."))
+            print('...to ' + toaddrs + '...')
             SendAttached(cyanide, message, toaddrs)
 
 """ Make Function Calls """

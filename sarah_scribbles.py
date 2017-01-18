@@ -75,7 +75,7 @@ def get_lulz():
     if scribble != 'file already exists':
         print('sending scribble...')
         for toaddrs in SUBS:
-            print(('...to ' + toaddrs + "..."))
+            print('...to ' + toaddrs + '...')
             SendAttached(scribble, message, toaddrs)
 
 """ Make Function Calls """

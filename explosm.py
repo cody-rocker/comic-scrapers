@@ -67,7 +67,7 @@ def SendAttached(IMAGE, MESSAGE, TOADDRS):
 def get_lulz():
     cyanide = cyanide_get()
     time = TimeStamp()
-    message = ('Daily comics from: explosm@your-server\n' + time)
+    message = 'Daily comics from: explosm@your-server\n' + time
     if cyanide != 'file already exists':
         print('sending cyanide...')
         for toaddrs in SUBS:
